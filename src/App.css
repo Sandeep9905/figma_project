@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color:#E5E5E5;
+    height: 100%;
+}
+.App{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    text-align: center;
+}
+
+.logo h4{
+    margin:5px 5px;
+    padding: 9px 20px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: -3px 3px 2px #888888;
+    color: #888888;
+    letter-spacing: 2px;
+}
+
+.logo span{
+    margin:6px 5px;
+    font-weight: 400px;
+    color: #888888;
+    text-align:center;
+    padding-top: 11px;
+    letter-spacing: 1px;
+}
+.icons{
+    margin: 5px 5px;
+    padding: 4px 3px;
+}
+.react-icons{
+    font-size: 25px;
+    margin: 5px 5px;
+    color: #469bf0;
+}
+.main-content{
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 10px;
+}
+
+.main-content h5{
+font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12.8px;
+line-height: 170%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #747474;
+}
+.main-content h5 span{
+    color: #606060;
+    font-family: Noto Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px;
+}
+.main-content input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: #E5E5E5;
+    border: none;
+}
+.main-content input::placeholder{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;
+    color: #AFAFAF;
+}
+
+.main-content input:focus{
+   outline: 0;
+   border-bottom: 2px solid #469bf0;
+   background-color: #EBEBEB;
+
+}
+
+.suggestion-box{
+    max-height: 351px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+    overflow: auto;
+}
+
+.suggestion-box ul{
+padding-left: 0px;
+margin: 0px 10px;
+}
+.suggestion-box ul li{
+   text-decoration: none; 
+   list-style: none;
+   margin: 5px 0px;
+   padding: 8px 0px;
+}
+
+.suggestion-box ul li:hover{
+    background:#EBF6FF;
+}
+/* .saved-content{
+    
+} */
+.saved-content ul{
+    padding-left: 0px;
+}
+.saved-content ul li svg{
+    padding-top: 5px;
+    
+}
+.saved-data{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+.save{
+    list-style: none;
+    margin: 3px 5px;
+    padding: 8px 6px;
+    background-color:#EBF6FF;
+    display: inline-block;
+}
+.add-data{
+    display: inline-block;
+    border: 1px solid rgb(107, 173, 218);
+    padding: 6px;
+}
+.add-data svg{
+    transform: rotate(-45deg);
+    font-size: large;
+    stroke: #469bf0;
+}
