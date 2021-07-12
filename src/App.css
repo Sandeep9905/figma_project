@@ -2,13 +2,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+.App{
+    height: 100vh;
+}
 main{
     background-color:#E5E5E5;
     height: 100%;
 }
-.App{
-    height: 100vh;
-}
+/* Navbar */
 nav{
     display: flex;
     width: 70%;
@@ -29,7 +30,6 @@ nav{
     color: #888888;
     letter-spacing: 2px;
 }
-
 .logo span{
     margin:6px 5px;
     font-weight: 400px;
@@ -47,6 +47,10 @@ nav{
     margin: 5px 5px;
     color: #469bf0;
 }
+
+
+
+/* Main */
 .main-content{
     width: 50%;
     margin: 0 auto;
